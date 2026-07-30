@@ -1,19 +1,50 @@
 aid: krosslinker
 name: Krosslinker
-description: Krosslinker is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Krosslinker (KrossLinker) is a Singapore-based deep-tech advanced-materials
+  company that designs and manufactures silica aerogels — among the most insulating
+  solids known — using a proprietary, water-based and scalable chemistry and manufacturing
+  platform the company calls Aspire. Its product line spans Cryar super-insulating
+  aerogel composite board, QuintAero ultra-light silica aerogel powder, KrossShield
+  SR Pro aerogel-powered cooling paint, and a flexible aerogel blanket in development,
+  serving cold-chain pharma and food packaging, building and construction passive
+  cooling, and industrial insulation. Krosslinker operates from CleanTech III in Singapore
+  and is a 500 Global portfolio company. It is a physical-materials manufacturer and
+  publishes no public API, developer portal, or machine-readable API artifacts; this
+  profile captures its public web, product, and security posture for the API Evangelist
+  network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://krosslinker.com/files/wp-content/uploads/2020/04/krosslinker-logo-sbs-enhanced-cropped.png
 url: https://raw.githubusercontent.com/api-evangelist/krosslinker/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Advanced Materials
+- Aerogel
+- Thermal Insulation
+- Cold Chain
+- Building And Construction
+- Manufacturing
+- Deep Tech
+- Sustainability
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://krosslinker.com
+- type: Products
+  url: https://krosslinker.com/products/
+- type: Applications
+  url: https://krosslinker.com/applications/
+- type: Careers
+  url: https://krosslinker.com/careers/
+- type: Contact
+  url: mailto:connect@krosslinker.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/krosslinker
+- type: YouTube
+  url: https://www.youtube.com/channel/UCnpDIQVQc601YHMGy1OL3nQ
+- type: DomainSecurity
+  url: security/krosslinker-domain-security.yml
+- type: LLMsTxt
+  url: llms/krosslinker-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
