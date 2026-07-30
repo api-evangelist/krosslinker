@@ -1,0 +1,32 @@
+# Krosslinker
+
+> Krosslinker (KrossLinker) is a Singapore-based deep-tech advanced-materials manufacturer that designs and produces silica aerogels — among the most insulating solids known — using its proprietary, water-based "Aspire" chemistry and manufacturing platform. Krosslinker has no public API, developer portal, or machine-readable API artifacts; this file describes the company for agents that encounter it in the API Evangelist network.
+
+## Company
+
+- [Website](https://krosslinker.com): Company site, products, and applications.
+- [Products](https://krosslinker.com/products/): Cryar aerogel board, QuintAero aerogel powder, KrossShield SR Pro cooling paint, aerogel blanket (in development).
+- [Applications](https://krosslinker.com/applications/): Cold-chain packaging, building and construction insulation.
+- [Careers](https://krosslinker.com/careers/): Open roles; office at 8 CleanTech Loop, CleanTech III, Singapore 637145.
+- [LinkedIn](https://www.linkedin.com/company/krosslinker): Company updates.
+- [YouTube](https://www.youtube.com/channel/UCnpDIQVQc601YHMGy1OL3nQ): Product and process video.
+- Contact: connect@krosslinker.com
+
+## Product datasheets
+
+- [KrossShield aerogel cooling paint TDS](http://krosslinker.com/wp-content/uploads/2025/07/Krosslinker-Aerogel-Paint-TDS-Brochure.pdf)
+- [Cryar aerogel insulation board TDS](http://krosslinker.com/wp-content/uploads/2025/07/KrossLinker-Cryar-Aerogel-Insulation-Board-TDS-Brochure.pdf)
+- [QuintAero silica aerogel particles TDS](http://krosslinker.com/wp-content/uploads/2025/07/KrossLinker-QuintAero-Si-Aerogel-Particles-TDS-Brochure.pdf)
+- [Cryar aerogel cold-chain brochure](http://krosslinker.com/wp-content/uploads/2025/07/Krosslinker-Cryar-aerogel-Cold-Chain-Brochure.pdf)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/krosslinker/refs/heads/main/apis.yml): APIs.json profile for Krosslinker.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/krosslinker/refs/heads/main/security/krosslinker-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for krosslinker.com.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/krosslinker/refs/heads/main/well-known/krosslinker-well-known.yml): Recorded absence of a /.well-known discovery surface.
+
+## Notes for agents
+
+- There is no API, no OpenAPI/AsyncAPI specification, no SDK, no CLI, and no MCP server for Krosslinker as of 2026-07-19.
+- Krosslinker is a physical-materials manufacturer; integration is commercial (sales/distribution), not programmatic.
+- It was added to the API Evangelist network as a 500 Global portfolio company.
